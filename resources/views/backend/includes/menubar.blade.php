@@ -13,23 +13,11 @@
     <!--navigation-->
     <ul class="metismenu" id="menu">
         <li>
-            <a href="javascript:;" class="has-arrow">
+            <a href="{{ route('admin.dashboard') }}" class="">
                 <div class="parent-icon"><i class='bx bx-home-circle'></i>
                 </div>
                 <div class="menu-title">Dashboard</div>
             </a>
-            <ul>
-                <li> <a href="index-2.html"><i class="bx bx-right-arrow-alt"></i>Default</a>
-                </li>
-                <li> <a href="dashboard-eCommerce.html"><i class="bx bx-right-arrow-alt"></i>eCommerce</a>
-                </li>
-                <li> <a href="dashboard-analytics.html"><i class="bx bx-right-arrow-alt"></i>Analytics</a>
-                </li>
-                <li> <a href="dashboard-digital-marketing.html"><i class="bx bx-right-arrow-alt"></i>Digital Marketing</a>
-                </li>
-                <li> <a href="dashboard-human-resources.html"><i class="bx bx-right-arrow-alt"></i>Human Resources</a>
-                </li>
-            </ul>
         </li>
         <li>
             <a href="javascript:;" class="has-arrow">
