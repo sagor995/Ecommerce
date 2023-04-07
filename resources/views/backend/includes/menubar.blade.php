@@ -29,12 +29,12 @@
             </a>
             <ul>
                 <li>
-                    <a href="javascript:;">
+                    <a href="{{ route('category.create') }}">
                         <i class="bx bx-right-arrow-alt"></i>Add New Category
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="{{ route('category.manage') }}">
                         <i class="bx bx-right-arrow-alt"></i>Manage All Category
                     </a>
                 </li>
