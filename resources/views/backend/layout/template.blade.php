@@ -5,27 +5,28 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
-    <!--plugins-->
-    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
-    <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="assets/css/pace.min.css" rel="stylesheet" />
-    <script src="assets/js/pace.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
-    <link href="assets/css/app.css" rel="stylesheet">
-    <link href="assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="assets/css/dark-theme.css" />
-    <link rel="stylesheet" href="assets/css/semi-dark.css" />
-    <link rel="stylesheet" href="assets/css/header-colors.css" />
     <title>Rukada - Responsive Bootstrap 5 Admin Template</title>
+    <!--favicon-->
+    <link rel="icon" href="{{ asset('backend/assets/images/favicon-32x32.png') }}" type="image/png" />
+    <!--plugins-->
+    <link href="{{ asset('backend/assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+    <link href="{{ asset('backend/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet" />
+    <link href="{{ asset('backend/assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('backend/assets/plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+    <!-- loader-->
+    <link href="{{ asset('backend/assets/css/pace.min.css') }}" rel="stylesheet" />
+    <script src="{{ asset('backend/assets/js/pace.min.js') }}"></script>
+    <!-- Bootstrap CSS -->
+    <link href="{{ asset('backend/assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('backend/assets/css/bootstrap-extended.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link href="{{ asset('backend/assets/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('backend/assets/css/icons.css') }}" rel="stylesheet">
+    <!-- Theme Style CSS -->
+    <link rel="stylesheet" href="{{ asset('backend/assets/css/dark-theme.css') }}" />
+    <link rel="stylesheet" href="{{ asset('backend/assets/css/semi-dark.css') }}" />
+    <link rel="stylesheet" href="{{ asset('backend/assets/css/header-colors.css') }}" />
+
 </head>
 
 <body>
@@ -35,10 +36,10 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+                    <img src="{{ asset('backend/assets/images/logo-icon.png') }}" class="logo-icon" alt="logo icon">
                 </div>
                 <div>
-                    <h4 class="logo-text">Rukada</h4>
+                    <h4 class="logo-text">eCommerce Platform</h4>
                 </div>
                 <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
                 </div>
@@ -552,7 +553,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-1.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-1.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Daisy Anderson <span class="msg-time float-end">5 sec
@@ -564,7 +565,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-2.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-2.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Althea Cabardo <span class="msg-time float-end">14
@@ -576,7 +577,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-3.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-3.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Oscar Garner <span class="msg-time float-end">8 min
@@ -588,7 +589,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-4.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-4.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Katherine Pechon <span class="msg-time float-end">15
@@ -600,7 +601,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-5.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-5.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Amelia Doe <span class="msg-time float-end">22 min
@@ -612,7 +613,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-6.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-6.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Cristina Jhons <span class="msg-time float-end">2 hrs
@@ -624,7 +625,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-7.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-7.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">James Caviness <span class="msg-time float-end">4 hrs
@@ -636,7 +637,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-8.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-8.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Peter Costanzo <span class="msg-time float-end">6 hrs
@@ -648,7 +649,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-9.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-9.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">David Buckley <span class="msg-time float-end">2 hrs
@@ -660,7 +661,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-10.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-10.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Thomas Wheeler <span class="msg-time float-end">2 days
@@ -672,7 +673,7 @@
                                         <a class="dropdown-item" href="javascript:;">
                                             <div class="d-flex align-items-center">
                                                 <div class="user-online">
-                                                    <img src="assets/images/avatars/avatar-11.png" class="msg-avatar" alt="user avatar">
+                                                    <img src="{{ asset('backend/assets/images/avatars/avatar-11.png') }}" class="msg-avatar" alt="user avatar">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h6 class="msg-name">Johnny Seitz <span class="msg-time float-end">5 days
@@ -691,7 +692,7 @@
                     </div>
                     <div class="user-box dropdown">
                         <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="assets/images/avatars/avatar-2.png" class="user-img" alt="user avatar">
+                            <img src="{{ asset('backend/assets/images/avatars/avatar-2.png') }}" class="user-img" alt="user avatar">
                             <div class="user-info ps-3">
                                 <p class="user-name mb-0">Pauline Seitz</p>
                                 <p class="designattion mb-0">Web Designer</p>
@@ -960,7 +961,7 @@
                             <div class="customers-list p-3 mb-3">
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-3.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-3.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Emy Jackson</h6>
@@ -973,7 +974,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-4.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-4.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Martin Hughes</h6>
@@ -986,7 +987,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-23.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-23.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Laura Madison</h6>
@@ -999,7 +1000,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-24.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-24.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Shoan Stephen</h6>
@@ -1012,7 +1013,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-20.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-20.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Keate Medona</h6>
@@ -1025,7 +1026,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-16.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-16.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Paul Benn</h6>
@@ -1038,7 +1039,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-25.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-25.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Winslet Maya</h6>
@@ -1051,7 +1052,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-11.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-11.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Bruno Bernard</h6>
@@ -1064,7 +1065,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-17.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-17.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Merlyn Dona</h6>
@@ -1077,7 +1078,7 @@
                                 </div>
                                 <div class="customers-list-item d-flex align-items-center border-bottom p-2 cursor-pointer">
                                     <div class="">
-                                        <img src="assets/images/avatars/avatar-7.png" class="rounded-circle" width="46" height="46" alt="" />
+                                        <img src="{{ asset('backend/assets/images/avatars/avatar-7.png') }}" class="rounded-circle" width="46" height="46" alt="" />
                                     </div>
                                     <div class="ms-2">
                                         <h6 class="mb-1 font-14">Alister Campel</h6>
@@ -1116,7 +1117,7 @@
                                 <div class="d-flex flex-column gap-3">
                                     <div class="d-flex align-items-center justify-content-between gap-3 p-2 border radius-10">
                                         <div class="">
-                                            <img src="assets/images/products/14.png" width="50" alt="" />
+                                            <img src="{{ asset('backend/assets/images/products/14.png') }}" width="50" alt="" />
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="mb-0">Yellow Tshirt</h6>
@@ -1128,7 +1129,7 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between gap-3 p-2 border radius-10">
                                         <div class="">
-                                            <img src="assets/images/products/19.png" width="50" alt="" />
+                                            <img src="{{ asset('backend/assets/images/products/19.png') }}" width="50" alt="" />
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="mb-0">Titan Watch </h6>
@@ -1140,7 +1141,7 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between gap-3 p-2 border radius-10">
                                         <div class="">
-                                            <img src="assets/images/products/04.png" width="50" alt="" />
+                                            <img src="{{ asset('backend/assets/images/products/04.png') }}" width="50" alt="" />
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="mb-0">Red Sofa</h6>
@@ -1152,7 +1153,7 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between gap-3 p-2 border radius-10">
                                         <div class="">
-                                            <img src="assets/images/products/18.png" width="50" alt="" />
+                                            <img src="{{ asset('backend/assets/images/products/18.png') }}" width="50" alt="" />
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="mb-0">iPhone Pro 7</h6>
@@ -1164,7 +1165,7 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between gap-3 p-2 border radius-10">
                                         <div class="">
-                                            <img src="assets/images/products/10.png" width="50" alt="" />
+                                            <img src="{{ asset('backend/assets/images/products/10.png') }}" width="50" alt="" />
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="mb-0">Light Chair</h6>
@@ -1176,7 +1177,7 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between gap-3 p-2 border radius-10">
                                         <div class="">
-                                            <img src="assets/images/products/08.png" width="50" alt="" />
+                                            <img src="{{ asset('backend/assets/images/products/08.png') }}" width="50" alt="" />
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="mb-0">Rounded Chair</h6>
@@ -1188,7 +1189,7 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between gap-3 p-2 border radius-10">
                                         <div class="">
-                                            <img src="assets/images/products/03.png" width="50" alt="" />
+                                            <img src="{{ asset('backend/assets/images/products/03.png') }}" width="50" alt="" />
                                         </div>
                                         <div class="flex-grow-1">
                                             <h6 class="mb-0">Fancy Sofa</h6>
@@ -1316,7 +1317,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="recent-product-img">
-                                                    <img src="assets/images/products/12.png" alt="">
+                                                    <img src="{{ asset('backend/assets/images/products/12.png') }}" alt="">
                                                 </div>
                                                 <div class="ms-2">
                                                     <h6 class="mb-1 font-14">Light Blue Chair</h6>
@@ -1343,7 +1344,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="recent-product-img">
-                                                    <img src="assets/images/icons/shoes.png" alt="">
+                                                    <img src="{{ asset('backend/assets/images/icons/shoes.png') }}" alt="">
                                                 </div>
                                                 <div class="ms-2">
                                                     <h6 class="mb-1 font-14">Green Sport Shoes</h6>
@@ -1370,7 +1371,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="recent-product-img">
-                                                    <img src="assets/images/icons/headphones.png" alt="">
+                                                    <img src="{{ asset('backend/assets/images/icons/headphones.png') }}" alt="">
                                                 </div>
                                                 <div class="ms-2">
                                                     <h6 class="mb-1 font-14">Red Headphone 07</h6>
@@ -1397,7 +1398,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="recent-product-img">
-                                                    <img src="assets/images/icons/idea.png" alt="">
+                                                    <img src="{{ asset('backend/assets/images/icons/idea.png') }}" alt="">
                                                 </div>
                                                 <div class="ms-2">
                                                     <h6 class="mb-1 font-14">Mini Laptop Device</h6>
@@ -1424,7 +1425,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="recent-product-img">
-                                                    <img src="assets/images/icons/user-interface.png" alt="">
+                                                    <img src="{{ asset('backend/assets/images/icons/user-interface.png') }}" alt="">
                                                 </div>
                                                 <div class="ms-2">
                                                     <h6 class="mb-1 font-14">Purple Mobile Phone</h6>
@@ -1451,7 +1452,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="recent-product-img">
-                                                    <img src="assets/images/icons/watch.png" alt="">
+                                                    <img src="{{ asset('backend/assets/images/icons/watch.png') }}" alt="">
                                                 </div>
                                                 <div class="ms-2">
                                                     <h6 class="mb-1 font-14">Smart Hand Watch</h6>
@@ -1478,7 +1479,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="recent-product-img">
-                                                    <img src="assets/images/icons/tshirt.png" alt="">
+                                                    <img src="{{ asset('backend/assets/images/icons/tshirt.png') }}" alt="">
                                                 </div>
                                                 <div class="ms-2">
                                                     <h6 class="mb-1 font-14">T-Shirt Blue</h6>
@@ -1615,19 +1616,19 @@
     </div>
     <!--end switcher-->
     <!-- Bootstrap JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('backend/assets/js/bootstrap.bundle.min.js') }}"></script>
     <!--plugins-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
-    <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
-    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-    <script src="assets/plugins/chartjs/chart.min.js"></script>
-    <script src="assets/plugins/peity/jquery.peity.min.js"></script>
-    <script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="assets/js/dashboard-eCommerce.js"></script>
+    <script src="{{ asset('backend/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js') }}"></script>
+    <script src="{{ asset('backend/assets/plugins/chartjs/chart.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/plugins/peity/jquery.peity.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/dashboard-eCommerce.js') }}"></script>
     <!--app JS-->
-    <script src="assets/js/app.js"></script>
+    <script src="{{ asset('backend/assets/js/app.js') }}"></script>
     <script>
         new PerfectScrollbar('.product-list');
         new PerfectScrollbar('.customers-list');
