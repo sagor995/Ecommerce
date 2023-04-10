@@ -4,9 +4,11 @@
 <head>
     <!-- header -->
     @include('backend.includes.header')
+    @yield('page-title')
 
     <!-- Css -->
     @include('backend.includes.css')
+    @yield('body-css')
 
 </head>
 
@@ -32,6 +34,7 @@
 
     <!-- Js -->
     @include('backend.includes.script')
+    @yield('body-script')
 </body>
 
 </html>
