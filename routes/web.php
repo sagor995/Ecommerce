@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 //Frontend
+use App\Http\Controllers\Frontend\PagesController;
+
 
 //Backend
 use App\Http\Controllers\Backend\DashboardController;
@@ -19,9 +21,11 @@ use App\Http\Controllers\Backend\CategoryController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', [PagesController::class, 'index'])->name('homepage');
 
 /*
 |--------------------------------------------------------------------------
